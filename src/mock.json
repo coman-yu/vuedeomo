@@ -1,0 +1,342 @@
+ {
+    "code": "00000",
+    "message": null,
+    "success": true,
+    "data": [
+        {
+            "flightDate": "2021-04-09",
+            "leg": {
+                "wibe": {
+                    "originList": [
+                        {
+                            "origin": "CAN",
+                            "compartment": [
+                                {
+                                    "compartmentCode": "J",
+                                    "grossAvailability": 28,
+                                    "grossAvailabilityRed": false,
+                                    "operatingCapacity": 28,
+                                    "operatingCapacityRed": false
+                                },
+                                {
+                                    "compartmentCode": "Y",
+                                    "grossAvailability": 262,
+                                    "grossAvailabilityRed": false,
+                                    "operatingCapacity": 262,
+                                    "operatingCapacityRed": false
+                                },
+                                {
+                                    "compartmentCode": "W",
+                                    "grossAvailability": 23,
+                                    "grossAvailabilityRed": false,
+                                    "operatingCapacity": 23,
+                                    "operatingCapacityRed": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "database": {
+                    "originList": [
+                        {
+                            "origin": "CAN",
+                            "compartment": [
+                                {
+                                    "compartmentCode": "J",
+                                    "grossAvailability": 28,
+                                    "grossAvailabilityRed": false,
+                                    "operatingCapacity": 28,
+                                    "operatingCapacityRed": false
+                                },
+                                {
+                                    "compartmentCode": "Y",
+                                    "grossAvailability": 262,
+                                    "grossAvailabilityRed": false,
+                                    "operatingCapacity": 262,
+                                    "operatingCapacityRed": false
+                                },
+                                {
+                                    "compartmentCode": "W",
+                                    "grossAvailability": 23,
+                                    "grossAvailabilityRed": false,
+                                    "operatingCapacity": 23,
+                                    "operatingCapacityRed": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            },
+            "seg": {
+                "wibe": {
+                    "depAirportList": [
+                        {
+                            "depAirport": "CANSYD",
+                            "bookingClasses": [
+                                {
+                                    "compartmentCode": "L",
+                                    "seatsAvailable": 217,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "M",
+                                    "seatsAvailable": 251,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "J",
+                                    "seatsAvailable": 0,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "K",
+                                    "seatsAvailable": 244,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "H",
+                                    "seatsAvailable": 249,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "I",
+                                    "seatsAvailable": 13,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "G",
+                                    "seatsAvailable": 1,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "D",
+                                    "seatsAvailable": 22,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "E",
+                                    "seatsAvailable": 155,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "B",
+                                    "seatsAvailable": 255,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "C",
+                                    "seatsAvailable": 26,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "A",
+                                    "seatsAvailable": 218,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "Z",
+                                    "seatsAvailable": 93,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "X",
+                                    "seatsAvailable": 4,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "Y",
+                                    "seatsAvailable": 0,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "V",
+                                    "seatsAvailable": 116,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "W",
+                                    "seatsAvailable": 0,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "T",
+                                    "seatsAvailable": 51,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "U",
+                                    "seatsAvailable": 235,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "R",
+                                    "seatsAvailable": 0,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "S",
+                                    "seatsAvailable": 22,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "P",
+                                    "seatsAvailable": 256,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "Q",
+                                    "seatsAvailable": 194,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "N",
+                                    "seatsAvailable": 1,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "O",
+                                    "seatsAvailable": 0,
+                                    "seatsAvailableRed": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                "database": {
+                    "depAirportList": [
+                        {
+                            "depAirport": "CANSYD",
+                            "bookingClasses": [
+                                {
+                                    "compartmentCode": "L",
+                                    "seatsAvailable": 207,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "M",
+                                    "seatsAvailable": 251,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "J",
+                                    "seatsAvailable": 28,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "K",
+                                    "seatsAvailable": 242,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "H",
+                                    "seatsAvailable": 248,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "I",
+                                    "seatsAvailable": 16,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "G",
+                                    "seatsAvailable": 1,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "D",
+                                    "seatsAvailable": 23,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "E",
+                                    "seatsAvailable": 140,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "B",
+                                    "seatsAvailable": 255,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "C",
+                                    "seatsAvailable": 27,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "A",
+                                    "seatsAvailable": 208,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "Z",
+                                    "seatsAvailable": 64,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "X",
+                                    "seatsAvailable": 4,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "Y",
+                                    "seatsAvailable": 262,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "V",
+                                    "seatsAvailable": 95,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "W",
+                                    "seatsAvailable": 23,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "T",
+                                    "seatsAvailable": 11,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "U",
+                                    "seatsAvailable": 231,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "R",
+                                    "seatsAvailable": 0,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "S",
+                                    "seatsAvailable": 22,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "P",
+                                    "seatsAvailable": 256,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "Q",
+                                    "seatsAvailable": 182,
+                                    "seatsAvailableRed": true
+                                },
+                                {
+                                    "compartmentCode": "N",
+                                    "seatsAvailable": 1,
+                                    "seatsAvailableRed": false
+                                },
+                                {
+                                    "compartmentCode": "O",
+                                    "seatsAvailable": 0,
+                                    "seatsAvailableRed": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

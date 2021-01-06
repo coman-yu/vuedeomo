@@ -36,17 +36,14 @@ export default {
       top: 0,
       left: 0,
       selectedTag: {},
-      affixTags: []
+      affixTags: [],
     }
   },
-//   computed: {
-//     visitedViews() {
-//       return this.$store.state.tagsView.visitedViews
-//     },
-//     routes() {
-//       return this.$store.state.permission.routers
-//     }
-//   },
+  computed: {
+    visitedViews() {
+      return this.$store.state.tagsView.visitedViews
+    },
+  },
   watch: {
     $route() {
       this.addTags()
@@ -69,7 +66,9 @@ export default {
       return route.path === this.$route.path
     },
     filterAffixTags(routes, basePath = '/') {
-      let tags = []
+      let tags = [];
+    console.log('routes',routes);
+      if(!routes) return
       routes.forEach(route => {
         if (route.meta && route.meta.affix) {
           const tagPath = path.resolve(basePath, route.path)
@@ -91,15 +90,19 @@ export default {
     },
     initTags() {
       const affixTags = this.affixTags = this.filterAffixTags(this.routes)
-      for (const tag of affixTags) {
+      try
+     { for (const tag of affixTags) {
         // Must have tag name
         if (tag.name) {
           this.$store.dispatch('tagsView/addVisitedView', tag)
         }
+      }}catch(err){
+        console.log('');
       }
     },
     addTags() {
       const { name } = this.$route
+
       if (name) {
         this.$store.dispatch('tagsView/addView', this.$route)
       }
@@ -107,8 +110,9 @@ export default {
     },
     moveToCurrentTag() {
       const tags = this.$refs.tag
-      this.$nextTick(() => {
-        for (const tag of tags) {
+         this.$nextTick(() => {
+           try{
+               for (const tag of tags) {
           if (tag.to.path === this.$route.path) {
             this.$refs.scrollPane.moveToTarget(tag)
             // when query is different then update
@@ -118,7 +122,13 @@ export default {
             break
           }
         }
+           }catch(err){
+             console.log('');
+           }
+      
       })
+     
+     
     },
     refreshSelectedTag(view) {
       this.$store.dispatch('tagsView/delCachedView', view).then(() => {
@@ -192,6 +202,7 @@ export default {
 
 <style lang="scss" scoped>
 .tags-view-container {
+  margin-top:20px;
   height: 34px;
   width: 100%;
   background: #fff;
@@ -218,9 +229,9 @@ export default {
         margin-right: 15px;
       }
       &.active {
-        background-color: #42b983;
+        background-color: #4491e0;
         color: #fff;
-        border-color: #42b983;
+        border-color: #4491e0;
         &::before {
           content: '';
           background: #fff;

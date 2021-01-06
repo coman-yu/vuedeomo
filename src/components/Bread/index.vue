@@ -29,15 +29,14 @@ export default {
             return true
           }
         })
-        console.log('allList',allList[0]);
         try{
           if (allList[0].path !== '/' && allList[0].path !== '/home') {
           allList.unshift({ path: '/', meta: { title: '首页' } })
         }
         }catch(err){
-          
+          console.log('');
         }
-       
+       console.log('allList',allList);
         this.breadList = allList
       },
       immediate: true

@@ -1,0 +1,7 @@
+{
+    id:'@id()',
+    username:"@cname()",
+    date:"@date()",
+    description:"@paragraph()",
+    email:"@email()"
+}

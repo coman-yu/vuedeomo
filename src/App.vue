@@ -35,16 +35,10 @@
         </el-menu>
       </el-aside>
       <el-main>
-        <!-- <el-breadcrumb separator-class="el-icon-arrow-right">
-          <el-breadcrumb-item :to="{ path: '/' }">首页</el-breadcrumb-item>
-          <el-breadcrumb-item>活动管理</el-breadcrumb-item>
-          <el-breadcrumb-item>活动列表</el-breadcrumb-item>
-          <el-breadcrumb-item>活动详情</el-breadcrumb-item>
-        </el-breadcrumb> -->
             <Bread/>
             <Tabs/>
         <div style="padding:15px 0;">
-         
+          <Channel/>
         </div>
       </el-main>
     </el-container>
@@ -52,8 +46,10 @@
 </template>
 
 <script>
+  
   import Bread from './components/Bread/index.vue'
-  import Tabs from './components/tabs/index.vue'
+  import Tabs from './components/tabs/'
+  import Channel from './components/channel'
   export default {
     name: "App",
     data() {
@@ -132,8 +128,11 @@
     },
     components: {
       Bread,
-      Tabs
+      Tabs,
+      Channel,
+    
     },
+ 
   };
 </script>
 
